@@ -1,0 +1,270 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	font-family: Segoe WP;
+}
+
+header {
+	height: 100px;
+}
+
+header img {
+	float: left;
+	margin: 25px 0 0 165px;
+}
+
+nav {
+	float: right;
+	margin: 15px 143px 0 0;
+}
+
+nav li {
+	border-right: 2px solid #616161;
+	list-style: none;
+	display: inline-block;
+	height: 20px;
+}
+
+nav li:nth-child(3) {
+	border: none;
+}
+
+nav  a {
+	text-decoration: none;
+	position: relative;
+	font: 19px Segoe WP;
+	margin-right: 18px;
+	margin-left: 8px;
+	bottom: 4px;
+	display: block;
+	color: #616161;
+}
+
+nav a:hover {
+	color: #0cb8a8;
+}
+
+#container {
+	height: 540px;
+	background: linear-gradient(120deg, #087680 25%, #10cbb3 50%);
+}
+
+#layer-1 {
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+
+#layer-1 .icon {
+	width: 115px;
+	height: 115px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#layer-1 .icon:hover {
+	background: #303030;
+}
+
+#layer-1 .icon-1 {
+	background: #079b95;
+}
+
+#layer-1 .icon-2 {
+	background: #038687;
+}
+
+#layer-1 .icon-3 {
+	background: #017d82;
+}
+
+#container section {
+	width: 785px;
+	padding-left: 220px;
+	padding-top: 60px;
+}
+
+.info {
+	padding-top: 100px;
+	padding-left: 320px;
+}
+
+#container section img {
+	float: left;
+}
+
+.info p:first-child {
+	background: url(icon_planet.png) no-repeat left center;
+	display: inline-block;
+    padding-left: 60px;
+	color: #a9e3de;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.info h1 {
+	font-size: 39px;
+	color: white;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+#par {
+	color: white;
+	font-size: 17px;
+	margin-top: 0;
+}
+
+.button {
+	background: #54d3c3;
+	color: white;
+	width: 105px;
+	padding: 7px 0 18px 75px;
+	height: 20px;
+}
+
+.button:hover {
+	background: orange;
+	font-weight: bold;
+	color: #259d8e;
+}
+
+.info a {
+	font-size: 21px;
+	text-decoration: none;
+	color: white;
+}
+
+#icon_buy {
+	background: #259d8e;
+	float: left;
+	padding: 8px 14px;
+}
+
+#about {
+	height: 755px;
+	display: flex;
+	justify-content: center;
+}
+
+#about div {
+	flex-basis: 920px;
+}
+
+#about h1 {
+	color: #636363;
+	font-size: 41px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#about p {
+	color: #9f9f9f;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#img_about {
+	display: block;
+	margin: 0 auto;
+}
+
+#apps {
+	height: 695px;
+	background: linear-gradient(105deg, #01646c 35%, #09a097 90%);
+}
+
+#layer-2 a {
+	width: 16.5%;
+}
+	
+#layer-2 a:last-child {
+	width: 17.5%
+}
+	
+#layer-2 {
+	display: flex;
+	background: linear-gradient(90deg, #01646c 16.5%, #097b84 16.5%, #097b84 33%, #118f99 33%, #118f99 49.5%,
+	#1da0aa 49.5%, #1da0aa 66%, #29b7c2 66%, #29b7c2 82.5%, #3ccad5 82.5%, #3ccad5 100%);
+}
+
+.icon_2 {
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon_2:hover {
+	background: orange;
+}
+
+#apps .info {
+	padding-top: 20px;
+	padding-left: 0;
+	height: 300px;
+}
+
+#apps section {
+	margin-top: 120px;
+	margin-left: 170px;
+}
+
+#apps .button {
+	margin-left: 560px;
+}
+
+#apps section img:first-child {
+	float: left;
+}
+
+#last-block {
+	height: 515px;
+	display: flex;
+	color: #49d7b0;
+}
+
+#block-1 {
+	width: 775px;
+	font-size: 70px;
+	line-height: 100px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+#block-1 strong {
+	font-size: 200px;
+}
+
+#block-2 {
+	width: 510px;
+	background: #49d7b0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #dedede;
+}
+
+footer p {
+	color: #989898;
+	font-size: 23px;
+	text-transform: capitalize;
+}
+
+@font-face {
+	font-family: Segoe WP;
+	src: url(SegoeWP.ttf);
+}
